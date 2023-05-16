@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+:root {
+	--pink: #f38fb1;
+	--yellow: #f1e6b7;
+	--green: #16723e;
+	--blue: #0097b2;
+	--black: #111111;
+	--gray: #c3c3c3;
+}
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+
+
+/* INDEX PAGE */
+
+  /* Hero Section */
+  .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("/images/portfolio.jpg");
+      background-size: cover;
+
+   
+      
+  }
+
+  @media (max-width: 768px){
+    .hero{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url(/images/portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.curve svg {
+    
+    height: 150px;
+  
+}
+  }
+/* Navbar */
+  .desktop-nav{
+    height: 50px;
+    background-color: var(--blue);
+   
+   
+}
+header .desktop-nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+header .desktop-nav a{
+  
+    color: var(--green);
+    text-decoration: none;
+}
+
+header .desktop-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+   
+}
+
+.curve{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: var(--yellow);
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 259px;
+    transform: rotateY(180deg);
+}
+
+.curve .shape-fill {
+    fill: rgb(121, 59, 9);
+}
+
+article h1{
+    text-align: center;
+    margin:20px;
+}
+article {
+   
+    padding: 20px 80px;
+    background-color: var(--yellow);
+   
+}
+
+
+
+/* CONTACT PAGE*/
+
+
+/* Global Variables */
+
+
+label, input, textarea, select {
+    display: block;
+    width:100%;
+}
+
+#contact input, #contact select{
+    margin-bottom:16px;
+}
+
+input, select, textarea{
+    padding: 8px;
+
+}
+
+#contact{
+    padding:200px 16px;
+    background-color: #ade3ec;
+}
+
+#contact h2{
+    padding-bottom: 16px;
+}
+
+#contact input[type="submit"]{
+    background-color: var(--yellow);
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+
