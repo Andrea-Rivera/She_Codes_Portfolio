@@ -26,13 +26,13 @@ I have used the hover state to give life to my buttons . For example, in my proj
 > Please include the following:
 > - The different pages and features of your website on mobile, tablet and
 desktop screen sizes (multiple screenshots per page and screen size).
-##Desktop Size
+> - ##Desktop Size
 
 ![Desktop Homepage Image](images/screenshots/index-desktop.jpg)
 ![Desktop Projects Image](images/screenshots/desktop-projects.jpg)
-![Desktop Contact Image](images/screenshots/contact-desktop.jpg)
+![Desktop Contact Image](images/screenshots/contact-desktop.png)
 
-> - The different features of your site, e.g. if you have hover states, take a
-screenshot that shows that.
+> - The different features of your site. I have done hover effects over the buttons in the project section. In the image, I hover over the first image on the left and the card has change the color of its border and also the button has added a box-shadow and translate effect when I hover over it.
+![Desktop hover Image](images/screenshots/hover.jpg)
 
 
