@@ -1,5 +1,5 @@
-# {{ Andrea del Pilar Rivera Pena}} - Portfolio Task
-[My portfolio site]( {{ link_to_your_site }} )
+#  Andrea del Pilar Rivera Pena- Portfolio Task
+[My portfolio site]( https://andrea-rivera.github.io/sheCodesFirstProject/index.html)
 ## Project Requirements
 ### Content
 {{ Add a short paragraph describing the features below. }}
@@ -28,4 +28,4 @@ screenshot that shows that.
 > You can do this by saving the images in a folder in your repo, and including
 them in your readme document with the following Markdown code:
 #### {{ image_project }}
-![ {{ Description of image }} ]( {{ ../image/portfolio.jpg }} )
+![ Desktop Homepage Image ](  ../image/screenshots/homePage-desktop.jpg)
