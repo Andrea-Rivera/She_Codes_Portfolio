@@ -29,8 +29,15 @@ desktop screen sizes (multiple screenshots per page and screen size).
 > - ##Desktop Size
 
 ![Desktop Homepage Image](images/screenshots/index-desktop.jpg)
+![Desktop Biography Image](images/screenshots/bio-desktop.png)
 ![Desktop Projects Image](images/screenshots/desktop-projects.jpg)
 ![Desktop Contact Image](images/screenshots/contact-desktop.png)
+
+> - ##Mobile Size
+![Mobile Homepage Image](images/screenshots/index-mobile.png)
+![Mobile Biography Image](images/screenshots/bio-mobile.png)
+![Mobile Projects Image](images/screenshots/project-mobile.png)
+![Mobile Contact Image](images/screenshots/contact-mobile.png)
 
 > - The different features of your site. I have done hover effects over the buttons in the project section. In the image, I hover over the first image on the left and the card has change the color of its border and also the button has added a box-shadow and translate effect when I hover over it.
 ![Desktop hover Image](images/screenshots/hover.jpg)
