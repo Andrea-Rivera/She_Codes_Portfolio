@@ -28,4 +28,4 @@ screenshot that shows that.
 > You can do this by saving the images in a folder in your repo, and including
 them in your readme document with the following Markdown code:
 #### {{ image_project }}
-![ Desktop Homepage Image ](  "../images/index-desktop.jpg")
+![Desktop Homepage Image]("images/index-desktop.jpg")
