@@ -23,6 +23,12 @@ I have also deployed a GitHub page where you can see my webpage Live. At the mom
 I have used the hover state to give life to my buttons . For example, in my projects section I have two buttons: Github and Demo . If you hover over them it will activate the css effect for border-shadow , translate and to change the color of the border.
 - [x] Different styles for active, hover and focus states.
 ### Screenshots
+>My Wireframe screenshots are the following:
+![Wireframe Homepage Image](images/screenshots/wireframe-index.png)
+![Wireframe Biography Image](images/screenshots/wireframe-bio.png)
+![Wireframe portfolio Image](images/screenshots/wireframe-projects.png)
+![Wireframe Contact Image](images/screenshots/wireframe-contact.png)
+
 > Please include the following:
 > - The different pages and features of your website on mobile, tablet and
 desktop screen sizes (multiple screenshots per page and screen size).
