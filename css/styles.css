@@ -19,7 +19,8 @@
       font-family: 'Poppins', sans-serif;
   }
 
-  /* Navbar */
+  /* Desktop Navbar */
+
 
 header .desktop-nav{
 
@@ -50,6 +51,7 @@ header .desktop-nav ul{
    
 }
 
+
 /* INDEX PAGE */
 
   /* Hero Section */
@@ -66,6 +68,35 @@ header .desktop-nav ul{
   }
 
   @media (max-width: 920px){
+
+
+header .desktop-nav{
+
+    background-color: var(--blue);
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:20px;
+}
+
+header .desktop-nav a{
+  
+    color: var(--yellow);
+    text-decoration: none;
+    font-size:1.2rem;
+    
+
+}
+
+header .desktop-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+   
+   
+}
+
     .hero{
     display: flex;
     justify-content: center;
