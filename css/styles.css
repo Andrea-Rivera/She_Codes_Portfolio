@@ -121,8 +121,11 @@ header .desktop-nav ul{
     background-color: var(--blue);
   
 }
-  }
+  } 
+  /*End Media queries*/
 
+
+/*BIOGRAPHY*/
 
 .curve{
     position: relative;
@@ -146,6 +149,16 @@ header .desktop-nav ul{
     fill: var(--brown);
 }
 
+.bio{
+    background-color: var(--yellow);
+    margin:0;
+    height:100vh;
+    display:grid;
+    place-content:center;
+    justify-items: center;
+    font-size:25px;
+}
+
 article h1{
     font-size:2rem;
     text-align: center;
@@ -155,14 +168,22 @@ article {
    
     padding: 40px 50px;
     margin-bottom: 30px;
-    background-color: var(--yellow);
-    
-   
 }
 
 #bio-txt{
+    margin: 50px 0;
     text-align: justify;
+    width: 80%;
+    overflow: auto;
+    max-height: 70%;
+    --g:radial-gradient(55% 20px, rgba(231, 219, 188, 0.6), #e7e25300);  
+    background: 
+    linear-gradient(#debb83 10px, #0000 40px calc(100% - 40px),#f4f5bb calc(100% - 10px)) local, 
+    var(--g) top   /100% 200%,    
+    var(--g) bottom/100% 200%;
 }
+
+
 
 
 
@@ -285,6 +306,9 @@ input, textarea{
 
 }
 
+.card p{
+    font-size: smaller;
+}
 .card .btn{
     
      
@@ -296,6 +320,8 @@ input, textarea{
         border-radius:0.8em ;
         margin:5px;
         cursor:pointer;
+        text-decoration: none;
+        font-size: smaller;
     }
 .card .btn:hover{
     box-shadow: 10px 5px 5px rgba(0,0,0,0.2);
