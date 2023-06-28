@@ -202,15 +202,15 @@ article h1{
 article {
    
     padding: 40px 50px;
-    margin-bottom: 30px;
+
 }
 
 #bio-txt{
-    margin: 50px 0;
+    margin-top: 50px;
     text-align: justify;
     width: 80%;
     overflow: auto;
-    max-height: 70%;
+    max-height: 60%;
     --g:radial-gradient(55% 20px, rgba(231, 219, 188, 0.6), #e7e25300);  
     background: 
     linear-gradient(#debb83 10px, #0000 40px calc(100% - 40px),#f4f5bb calc(100% - 10px)) local, 
@@ -218,8 +218,9 @@ article {
     var(--g) bottom/100% 200%;
 }
 
-
-
+.skills{
+    padding-top: 20px;
+}
 
 
 /* CONTACT PAGE*/
