@@ -1,5 +1,5 @@
 #  Andrea del Pilar Rivera Pena- Portfolio Task
-[My portfolio site]( https://andrea-rivera.github.io//She_Codes_Portfolio/)
+[My portfolio site]( https://andrea-rivera.github.io/She_Codes_Portfolio/)
 ## Project Requirements
 ### Content
 My profile picture is inside a canvas picture that I used as my hero section. I have done one image for desktop and another image for mobile. 
