@@ -162,27 +162,7 @@ header button{
 
 /*BIOGRAPHY*/
 
-.curve{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    background-color: var(--yellow);
-}
 
-.curve svg {
-    position: relative;
-    display: block;
-    width: calc(131% + 1.3px);
-    height: 259px;
-    transform: rotateY(180deg);
-}
-
-.curve .shape-fill {
-    fill: var(--brown);
-}
 
 .bio{
     background-color: var(--yellow);
@@ -202,7 +182,7 @@ article h1{
 article {
    
     padding: 40px 50px;
-    margin-bottom: 30px;
+
 }
 
 #bio-txt{
@@ -210,7 +190,7 @@ article {
     text-align: justify;
     width: 80%;
     overflow: auto;
-    max-height: 70%;
+    max-height: 60%;
     --g:radial-gradient(55% 20px, rgba(231, 219, 188, 0.6), #e7e25300);  
     background: 
     linear-gradient(#debb83 10px, #0000 40px calc(100% - 40px),#f4f5bb calc(100% - 10px)) local, 
@@ -218,7 +198,10 @@ article {
     var(--g) bottom/100% 200%;
 }
 
-
+.skills{
+    display: inline;
+    padding-top: 10px;
+}
 
 
 
