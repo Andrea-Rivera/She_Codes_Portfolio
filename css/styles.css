@@ -21,16 +21,8 @@
 
   /* Desktop Navbar */
 
-
-header .desktop-nav{
-
+  header{
     background-color: var(--blue);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left:40px;
-    top: 0px;
 
 }
 
@@ -49,7 +41,74 @@ header .desktop-nav ul{
     gap: 40px;
    
    
+
 }
+
+header button{
+    all:unset;
+}
+
+@media(max-width:768px){
+    header .desktop-nav{
+        display : none
+    }
+}
+
+/* MOBILE NAVBAR */
+@media(min-width: 768px){
+
+  
+
+ 
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 40px;
+
+    }
+
+    header a {
+        text-decoration: none;
+        color: var(--black);
+    }
+    .desktop-nav{
+        display: inline-block;
+    }
+
+    header nav ul{
+        display: flex;
+        gap: 24px;
+        margin-right: 16px;
+    }
+
+    .mobile-header svg {
+        display: none;
+    }
+}
+
+.mobile-nav a {
+    text-decoration:none;
+    color: var(--yellow);
+    display: block;
+    padding: 4px 16px;
+    text-align: left;
+    }
+    
+    
+    .mobile-header{
+        padding:16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .display-none{
+        display: none;
+    }
 
 
 /* INDEX PAGE */
@@ -70,32 +129,8 @@ header .desktop-nav ul{
   @media (max-width: 920px){
 
 
-header .desktop-nav{
 
-    background-color: var(--blue);
-    height: 50px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding:20px;
-}
-
-header .desktop-nav a{
-  
-    color: var(--yellow);
-    text-decoration: none;
-    font-size:1.2rem;
     
-
-}
-
-header .desktop-nav ul{
-    display: flex;
-    list-style-type: none;
-    gap: 40px;
-   
-   
-}
 
     .hero{
     display: flex;
